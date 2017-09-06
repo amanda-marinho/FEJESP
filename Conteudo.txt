@@ -1,0 +1,37 @@
+HOME
+>links para redes socias (linkedin, twitter, facebook, youtube,instagram)
+>acesso as publicações mais recentes do facebook
+>banners fejesp
+>link para as publicações mais recentes do blog
+>formulario para assinar a newsletter
+>banner movimento junior paulista
+>(footer)parceiros, mantenedor
+
+QUEM SOMOS
+>titulo : Federação das Empresas Juniores do Estado de São Paulo
+>texto : Você já ouviu falar do maior movimento de empreendedorismo jovem do mundo?
+com foto
+>missão
+>valores
+>contatos importantes
+>formulario para inscrever uma EJ na FEJESP
+>(footer)parceiros, mantenedor
+
+
+PROCESSO DE FEDERAÇÃO
+>Link para inscrever uma EJ
+>Texto: Federe sua EJ à FEJESP!
+>link: edital
+>link: guia de regulamntação
+>link: modelos de documentos
+>perguntas frequentes
+>(footer)parceiros, mantenedor
+
+BLOG
+>titulo: Bem vindos ao blog
+>link pra publicação
+
+
+CONTATO
+>formulario FALE COM A FEJESP
+>foto 
