@@ -6,11 +6,12 @@ body{
     
 }
 
+/* ----- BARRA DE NAVEGAÇÃO ----- */
+
 div.menu{
     background-color: #CC3436;
     color: #FFFFFF;
     border-bottom: solid 12px #929292;
-    box-sizing: inherit;
 }
 
 img.logo{
@@ -21,9 +22,9 @@ img.logo{
 }
 
 img.impacto{
-    height: 45%;
-    width: 45%;
-    box-shadow: 12px 12px #929292; 
+    height: 80%;
+    width: 60%;
+    box-shadow: 12px 12px 2px #929292; 
     margin-left: 8%;
     margin-right: 0;
     margin-top: 5%;
@@ -55,12 +56,53 @@ div.home {
     text-align: center;
     font-size: 210%;
     line-height: 1.4;
+    font-weight: bold;
 }
 
 div.federacao{
     width: 50%;
+    margin-top: 10%;
 }
 
 div.inicio{
-    display: inline-block;
+    display: flex;
+}
+
+
+/* ----- APRESENTAÇÃO MEJ ----- */
+div.texto{
+  display: inline-flex; 
+}
+
+div.mej h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2%;
+    line-height: 1.4;
+}
+
+div.mej p{
+    width: 45%;
+    text-align: center;
+    margin: 3.2% 2%;
+    font-size: 120%;
+    line-height: 1.2;
+    color: #47525E;
+}
+
+div.mej img{
+    width: 45%;
+    height: 45%;
+    border-radius: 60px;
+    border: solid 4px #CC3436;
+    margin: 2%;
+}
+
+/* ----- BANNER MOV EMPRESA JÚNIOR PAULISTA ----- */
+
+div.banner img{
+    display: flex;
+    width: 100%;
 }
