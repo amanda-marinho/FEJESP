@@ -3,7 +3,7 @@
 body{
     background-color: #E0E0E0;
     font-family: "Poppins";
-    
+
 }
 
 /* ----- BARRA DE NAVEGAÇÃO ----- */
@@ -71,7 +71,7 @@ div.inicio{
 
 /* ----- APRESENTAÇÃO MEJ ----- */
 div.texto{
-  display: inline-flex; 
+    display: inline-flex; 
 }
 
 div.mej h1{
@@ -105,4 +105,93 @@ div.mej img{
 div.banner img{
     display: flex;
     width: 100%;
+    margin: 15px 0;
+}
+
+/* ----- BLOG ----- */
+
+div.blog h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2%;
+    line-height: 1.4;
+    width: 90%;
+}
+
+div.blog h2{
+    color: #631C1E;
+    font-size: 170%;
+    font-weight: bold;
+    margin: 5% 9%;
+}
+
+.blog .box1{
+    background-color: #CFCFCF;
+    width: 600px;
+    border-radius: 20px;
+    margin: 0px 50px 50px 50px;
+    padding: 0;
+}
+
+div.blog .box1 p{
+    margin: 0 0% 5% 9%;
+    font-size: 110%;
+    line-height: 1.2;
+    color: #47525E;
+    width: 400px;
+}
+
+.blog .box2{
+    background-color: #CFCFCF;
+    width: 600px;
+    border-radius: 20px;
+        margin-bottom: 50px;
+}
+
+div.blog .box2 p{
+    margin: 20px 0% 5% 9%;
+    font-size: 110%;
+    line-height: 1.2;
+    color: #47525E;
+    width: 300px;
+
+}
+
+.blog .texto{
+    display: inline-flex;
+}
+
+.form{
+    display: inline-flex;
+}
+
+.form div{
+    display: block;
+}
+.form .email{
+    height: 17%;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #CFCFCF;
+    font-family: "Poppins";
+}
+
+.form .button{
+    height: 20%;
+    width: 250px;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #631C1E;
+    color: #ffffff;
+    background-color: #631C1E;
+    font-family: "Poppins";
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
 }
