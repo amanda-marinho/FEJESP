@@ -163,6 +163,8 @@ div.blog .box2 p{
     display: inline-flex;
 }
 
+/* ----- FORMS NEWSLETTER ----- */
+
 .form{
     display: inline-flex;
 }
@@ -171,17 +173,58 @@ div.blog .box2 p{
     display: block;
 }
 .form .email{
-    height: 17%;
+    height: 16%;
     width: 250px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 1em;
     border-style: solid;
     border-color: #CFCFCF;
     font-family: "Poppins";
+    font-size: 105%;
+    padding: 0 2%;
 }
 
 .form .button{
-    height: 20%;
+    height: 19%;
+    width: 270px;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #631C1E;
+    color: #ffffff;
+    background-color: #631C1E;
+    font-family: "Poppins";
+    font-size: 105%;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+
+}
+
+/* ----- FORMS FEDERAÇÃO ----- */
+
+.fejesp{
+    margin-left: 50px;
+}
+
+
+.fejesp input{
+    width: 400px;
+    margin-bottom: 12px;
+    border-radius: 0.7em;
+    border-style: solid;
+    border-color: #E0E0E0;
+    font-family: "Poppins";
+    display: block;
+    margin-left: 4%;
+    padding: 0 2%;
+    font-size: 110%;
+}
+
+.fejesp .button{
+    height: 26px;
     width: 250px;
     border-radius: 1em;
     border-style: solid;
@@ -189,9 +232,74 @@ div.blog .box2 p{
     color: #ffffff;
     background-color: #631C1E;
     font-family: "Poppins";
+    margin-left: 200px;
+    margin-top: 3%;
 }
 
-input:focus, textarea:focus {
-    /* Dar um pouco de destaque nos elementos ativos */
-    border-color: #000;
+.fejesp h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    margin-top: 4%;
+    margin-left: 4%;
+    line-height: 1.4;
+    width: 80%;
 }
+
+.fejesp h2{
+    color: #631C1E;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 4% 4%;
+    width: 600px;
+}
+
+.bloco{
+    display: inline-flex;
+}
+
+.bloco img{
+    width: auto;
+    max-width: 450px;
+    margin-left: 90px;
+}
+
+/* ----- FOOTER ----- */
+footer{
+    background-color: #CFCFCF;
+    display: inline-flex;
+
+}
+
+footer h3{
+    font-family: 'Roboto';
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+.parceiros{
+    border-right: 1.5px white solid;
+    padding: 15px 50px;
+    width: 540px;
+}
+.parceiros img{
+    height: auto;
+    max-height: 300px;
+    margin: 2% 4% 0 4%;
+}
+
+.mantenedor{
+    border-right: 1.5px white solid;
+    padding: 15px 50px;
+}
+
+.redes{
+    padding: 15px 50px;
+    width: 350px;
+}
+
+.redes img{
+    height: auto;
+    max-height: 50px;
+    margin: 2% 3%;
+}
+
