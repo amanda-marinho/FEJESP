@@ -202,6 +202,99 @@ div.home {
 .missao button:hover{
     box-shadow: 0 0 10px black;
 }
+
+/* ----- CONTATOS ----- */
+
+.contato h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.contato img{
+    width: 170px;
+    height: 190px;
+}
+
+.contato h2{
+    
+}
+.contato .presidencia div{
+    display: inline-grid; 
+    margin: 2% 7%;
+}
+
+.contato .dir1 div{
+    display: inline-grid; 
+    margin: 2% 15%;
+}
+
+.contato .dir2 div{
+    display: inline-grid; 
+    margin: 2% 15%;
+}
+
+/* ----- PERGUNTAS IMPORTANTES ----- */
+.perguntas{
+    background-color: #CFCFCF;
+    border-radius: 1em;
+    margin: 2%;
+    padding: 2%;
+}
+
+.perguntas h1{
+    color: white;
+    font-size: 215%;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 3%;
+    text-shadow: 1px 5px 2px #b6bbc1;
+}
+
+.perguntas h2{
+    color: white;
+    text-shadow: 1px 3px 2px #b6bbc1;
+    font-size: 130%;
+    font-weight: bolder;
+    margin: 2% 0;
+    padding-top: 2%;
+    line-height: 1.4;
+    border-top: 0.7px #b6bbc1 solid;
+}
+
+.perguntas p{
+    font-size: 110%;
+    line-height: 1.2;
+    color: #47525E;
+}
+
+.perguntas button{
+    height: 19%;
+    width: 20%;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #9b9da3;
+    color: #ffffff;
+    background-color: #9b9da3;
+    font-family: "Poppins";
+    font-size: 105%;
+}
+
+.perguntas button:hover{
+    box-shadow: 0 0 6px black;
+}
+
+}
+
+
+
+
 /* ----- FOOTER ----- */
 footer{
     background-color: #CFCFCF;
