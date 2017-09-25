@@ -1,0 +1,99 @@
+body{
+    background-color: #E0E0E0;
+    font-family: "Poppins";
+
+}
+
+/* ----- BARRA DE NAVEGAÇÃO ----- */
+
+div.menu{
+    background-color: #CC3436;
+    color: #FFFFFF;
+    border-bottom: solid 12px #929292;
+}
+
+img.logo{
+    height: 82.797px;
+    width: 238.5px;
+    margin-top: 39.75px;
+    margin-left: 92.75px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 165%;
+}
+
+div.home {
+    margin-left: 32.5%;
+    margin-bottom: 4%;
+}
+
+.menu div{
+    display: inline-block;
+}
+
+.menu h1{
+    margin-right: 20%;
+    text-align: center;
+    font-size: 210%;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- FOOTER ----- */
+footer{
+    background-color: #CFCFCF;
+    display: inline-flex;
+
+}
+
+footer h3{
+    font-family: 'Roboto';
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+.parceiros{
+    border-right: 1.5px white solid;
+    padding: 15px 50px;
+    width: 540px;
+}
+.parceiros img{
+    height: auto;
+    max-height: 300px;
+    margin: 2% 4% 0 4%;
+}
+
+.mantenedor{
+    border-right: 1.5px white solid;
+    padding: 15px 50px;
+}
+
+.redes{
+    padding: 15px 50px;
+    width: 350px;
+}
+
+.redes img{
+    height: auto;
+    max-height: 50px;
+    margin: 2% 3%;
+}
