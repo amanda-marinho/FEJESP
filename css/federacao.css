@@ -296,20 +296,32 @@ div.home {
 
 
 /* ----- FOOTER ----- */
+
+footer{
+ background-color: #CFCFCF;
+}
+
+footer h1{
+    font-family: 'Roboto';
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+/*
 footer{
     background-color: #CFCFCF;
-    display: inline;
-
+    display: inline-flex;
 }
+
 
 footer h3{
     font-family: 'Roboto';
-    font-size: 150%;
-    margin-bottom: 15px;
+    font-size: 100%;
+    margin-bottom: 10px;
 }
 .parceiros{
     border-right: 1.5px white solid;
-    padding: 15px 50px;
+    padding: 0px 0px;
     width: 540px;
 }
 .parceiros img{
@@ -320,11 +332,11 @@ footer h3{
 
 .mantenedor{
     border-right: 1.5px white solid;
-    padding: 15px 50px;
+    padding: 0px 0px;
 }
 
 .redes{
-    padding: 15px 50px;
+    padding: 0px 0px;
     width: 350px;
 }
 
@@ -333,3 +345,4 @@ footer h3{
     max-height: 50px;
     margin: 2% 3%;
 }
+

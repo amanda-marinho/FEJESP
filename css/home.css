@@ -242,7 +242,6 @@ input:focus, textarea:focus {
 .fejesp .button:hover{
     box-shadow: 0 0 10px black;
 }
-
 .fejesp h1{
     color: #CC3436;
     font-size: 215%;
@@ -307,6 +306,6 @@ footer h3{
 .redes img{
     height: auto;
     max-height: 50px;
-    margin: 2% 3%;
+    margin: 2% 2%;
 }
 
