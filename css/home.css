@@ -197,6 +197,9 @@ div.blog .box2 p{
     font-size: 105%;
 }
 
+.form .button:hover{
+    box-shadow: 0 0 10px black;
+}
 input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #000;
@@ -234,6 +237,10 @@ input:focus, textarea:focus {
     font-family: "Poppins";
     margin-left: 200px;
     margin-top: 3%;
+}
+
+.fejesp .button:hover{
+    box-shadow: 0 0 10px black;
 }
 
 .fejesp h1{

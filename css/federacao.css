@@ -50,19 +50,162 @@ div.home {
 
 
 
+/* ----- PROCESSO DE FEDERAÇÃO ----- */
+
+.imagem{
+    display:flex;
+}
+.processo{
+    height: auto;
+    max-height: 200px;
+    align-self: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 6%;
+
+}
+
+.bloco1{
+    display: inline-flex;
+}
+/* ----- TEXTO EJ ----- */
+
+.fejesp{
+    width: auto;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+.fejesp h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    margin: 2%;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.fejesp p{
+    width: 85%;
+    text-align: justify;
+    margin: 3.2% 10%;
+    font-size: 120%;
+    line-height: 1.2;
+    color: #47525E;
+    box-sizing: border-box;
+}
 
 
 
+/* ----- VALORES ----- */
 
+.valores{
+    width: 647px;
+    box-sizing: border-box;
 
+}
 
+.valores h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    margin: 2%;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 6%;
+}
 
+.valores div{
+    display: inline;
+    margin-left: 7%;
+}
 
+.valores .legenda{
+    margin-left: 0;
+}
+.legenda p {
+    display: inline;
+    width: 85%;
+    text-align: justify;
+    font-size: 120%;
+    line-height: 1.2;
+    color: #47525E;
+    box-sizing: border-box;
+}
+.legenda .l1{
+    margin-left: 1%;
+}
+.legenda .l2{
+    margin-left: 5%;
+}
+.legenda .l3{
+    margin-left: 3%;
+    display: inline;
+    align-content: center;
+}
+.legenda .l3 div{
+    display: inline-grid;
+    align-content: center;
+}
+.legenda .l4{
+    margin-left: 6%;
+    align-content: center;
+}
+.legenda .l4 div{
+    display: inline-grid;
+}
+.valores img{
+    height: auto;
+    width: auto;
+    max-width: 12%;
+    max-height: 4%;
+    margin-right: 11%;
+}
 
+/* ----- MISSÃO ----- */
+.missao{
+    align-items: center;
+    justify-content: center;
+}
+
+.missao h1{
+    color: #CC3436;
+    font-size: 215%;
+    font-weight: bolder;
+    margin: 4% 0 2% 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.missao p{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 1.2;
+    color: #47525E;
+}
+
+.missao button{
+    margin: 3.5% 0 5% 36%;
+    height: 19%;
+    width: 30%;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #631C1E;
+    color: #ffffff;
+    background-color: #631C1E;
+    font-family: "Poppins";
+    font-size: 105%;
+}
+
+.missao button:hover{
+    box-shadow: 0 0 10px black;
+}
 /* ----- FOOTER ----- */
 footer{
     background-color: #CFCFCF;
-    display: inline-flex;
+    display: inline;
 
 }
 
