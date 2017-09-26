@@ -43,6 +43,10 @@ nav a{
     font-size: 165%;
 }
 
+nav a:hover{
+    text-shadow: 3px 3px 5px #75777a;
+}
+
 div.home {
     margin-left: 38%;
 }
