@@ -222,25 +222,45 @@ div.home {
 .contato img{
     width: 170px;
     height: 190px;
+    border-radius: 1em;
+    margin-left: 12%;
+}
+
+.contato img:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 1em;
+    margin-left: 8%;
 }
 
 .contato h2{
-    
+    color: #631C1E;
+    font-size: 145%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.contato h3{
+    color: #353b42;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contato p{
+    color: #353b42;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
 }
 .contato .presidencia div{
     display: inline-grid; 
-    margin: 2% 7%;
+    margin: 2% 6% 10% 8%;
 }
 
-.contato .dir1 div{
-    display: inline-grid; 
-    margin: 2% 15%;
-}
 
-.contato .dir2 div{
-    display: inline-grid; 
-    margin: 2% 15%;
-}
+
 
 /* ----- PERGUNTAS IMPORTANTES ----- */
 .perguntas{
