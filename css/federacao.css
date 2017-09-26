@@ -244,6 +244,7 @@ div.home {
     border-radius: 1em;
     margin: 2%;
     padding: 2%;
+    margin-bottom: 10%;
 }
 
 .perguntas h1{
@@ -272,6 +273,7 @@ div.home {
     font-size: 110%;
     line-height: 1.2;
     color: #47525E;
+    text-align: justify;
 }
 
 .perguntas button{
@@ -295,54 +297,5 @@ div.home {
 
 
 
-/* ----- FOOTER ----- */
 
-footer{
- background-color: #CFCFCF;
-}
-
-footer h1{
-    font-family: 'Roboto';
-    font-size: 200%;
-    margin-bottom: 10px;
-}
-
-/*
-footer{
-    background-color: #CFCFCF;
-    display: inline-flex;
-}
-
-
-footer h3{
-    font-family: 'Roboto';
-    font-size: 100%;
-    margin-bottom: 10px;
-}
-.parceiros{
-    border-right: 1.5px white solid;
-    padding: 0px 0px;
-    width: 540px;
-}
-.parceiros img{
-    height: auto;
-    max-height: 300px;
-    margin: 2% 4% 0 4%;
-}
-
-.mantenedor{
-    border-right: 1.5px white solid;
-    padding: 0px 0px;
-}
-
-.redes{
-    padding: 0px 0px;
-    width: 350px;
-}
-
-.redes img{
-    height: auto;
-    max-height: 50px;
-    margin: 2% 3%;
-}
 

@@ -120,7 +120,11 @@ div.blog h1{
     width: 90%;
 }
 
-div.blog h2{
+.blog  h1:hover{
+    text-shadow: 1px 1px 2px #75777a;
+}
+
+.blog h2{
     color: #631C1E;
     font-size: 170%;
     font-weight: bold;
@@ -135,12 +139,17 @@ div.blog h2{
     padding: 0;
 }
 
-div.blog .box1 p{
+.blog .box1 p{
     margin: 0 0% 5% 9%;
     font-size: 110%;
     line-height: 1.2;
     color: #47525E;
     width: 400px;
+    text-align: justify;
+}
+
+.blog .box1 h2:hover{
+    text-shadow: 1px 1px 2px #75777a;
 }
 
 .blog .box2{
@@ -150,13 +159,13 @@ div.blog .box1 p{
         margin-bottom: 50px;
 }
 
-div.blog .box2 p{
+.blog .box2 p{
     margin: 20px 0% 5% 9%;
     font-size: 110%;
     line-height: 1.2;
     color: #47525E;
     width: 300px;
-
+    
 }
 
 .blog .texto{
@@ -268,6 +277,7 @@ input:focus, textarea:focus {
     width: auto;
     max-width: 450px;
     margin-left: 90px;
+    margin-bottom: 10%;
 }
 
 /* ----- FOOTER ----- */
