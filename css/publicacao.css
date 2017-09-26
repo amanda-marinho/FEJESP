@@ -1,0 +1,117 @@
+body{
+    background-color: #E0E0E0;
+    font-family: "Poppins";
+
+}
+
+/* ----- BARRA DE NAVEGAÇÃO ----- */
+
+div.menu{
+    background-color: #CC3436;
+    color: #FFFFFF;
+    border-bottom: solid 12px #929292;
+}
+
+img.logo{
+    height: 82.797px;
+    width: 238.5px;
+    margin-top: 39.75px;
+    margin-left: 92.75px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 165%;
+}
+
+nav a:hover{
+    text-shadow: 3px 3px 5px #75777a;
+}
+
+div.home {
+    margin-left: 32.5%;
+    margin-bottom: 4%;
+}
+
+.menu div{
+    display: inline-block;
+}
+
+.menu h1{
+    margin-right: 20%;
+    text-align: center;
+    font-size: 210%;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+
+/* ----- PUBLICAÇÕES ----- */
+
+.box{
+    background-color: #CFCFCF;
+    border-radius: 20px;
+    margin: 50px 50px 50px 50px;
+    padding: 2px 0;
+}
+
+.box p{
+    margin: 0 6% 2% 6%;
+    font-size: 110%;
+    line-height: 1.2;
+    color: #47525E;
+    text-align: justify;
+}
+
+.box h2{
+    color: #631C1E;
+    font-size: 170%;
+    font-weight: bold;
+    margin: 2% 6%;
+}
+
+.box h2:hover{
+    text-shadow: 1px 1px 2px #75777a;
+}
+
+h1{
+    font-size: 160%;
+    line-height: 1.2;
+    color: #47525E;
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+
+.box h3{
+    color: #631C1E;
+    font-size: 145%;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 7%;
+}
+
+.box h4{
+    color: #353b42;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: right;
+    margin: 1.4% 7%;
+}
+
+h5{
+    color: #353b42;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: right;
+    margin: 1.4% 7%;
+}
+
+
